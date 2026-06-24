@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Symmetry perception and affective responses: a combined EEG/EMG study",
+  "description": "This dataset comprises concurrent EEG and EMG recordings collected during a visual perception task examining symmetry detection and affective responses. Participants viewed visual patterns and made judgments about pattern regularity following stimulus offset, providing insights into the neural and physiological correlates of symmetry perception.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +11,29 @@
     "Pecchinenda, A.": {},
     "Bertamini, M.": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004347.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "electromyography"
+    },
+    {
+      "term": "symmetry perception"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "affective response"
+    },
+    {
+      "term": "pattern recognition"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1016/j.neuropsychologia.2012.10.003",
       "identifier_type": "DOI",
@@ -30,14 +48,19 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004347",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004347.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "2.9 GB (88 files)"
   ],
   "formats": [
     ".bdf",
@@ -48,32 +71,8 @@
     ".py",
     ".pyc",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "A combined electroencephalography study investigating the neural correlates of symmetry perception and affective responses. Participants viewed visual patterns and made judgments about regularity while EEG signals were recorded to assess brain activity.",
-  "keywords": [
-    {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "symmetry perception"
-    },
-    {
-      "term": "regularity detection"
-    },
-    {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
-    },
-    {
-      "term": "affective responses"
-    },
-    {
-      "term": "pattern recognition"
-    }
-  ],
-  "source_hash": "d4bdd15aa7e774f68ce0af5101270381f1a6a9ba60680bf42c6a1a5e9a89a071"
+  "source_hash": "2d09a54c85463e32b4c4e3acbba6b0bc4de48b4f541f29d842d9cf6404af427a"
 }
