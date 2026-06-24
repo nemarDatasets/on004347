@@ -1,30 +1,79 @@
 {
   "version": "2.0",
-  "dataset_id": "on004347",
-  "source": "openneuro",
-  "source_id": "ds004347",
+  "pipeline_stage": "enriched",
   "title": "Symmetry perception and affective responses: a combined EEG/EMG study",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Makin, A. D. J": {},
     "Wilton, M. M": {},
     "Pecchinenda, A.": {},
     "Bertamini, M.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004347.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1016/j.neuropsychologia.2012.10.003",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004347",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004347",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".py",
+    ".pyc",
+    ".set",
+    ".tsv"
+  ],
+  "description": "A combined electroencephalography study investigating the neural correlates of symmetry perception and affective responses. Participants viewed visual patterns and made judgments about regularity while EEG signals were recorded to assess brain activity.",
+  "keywords": [
+    {
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "symmetry perception"
+    },
+    {
+      "term": "regularity detection"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "affective responses"
+    },
+    {
+      "term": "pattern recognition"
+    }
+  ],
+  "source_hash": "d4bdd15aa7e774f68ce0af5101270381f1a6a9ba60680bf42c6a1a5e9a89a071"
 }
